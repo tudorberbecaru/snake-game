@@ -65,6 +65,10 @@ Welcome to the Snake Game in Python! This console-based implementation brings th
     ```bash
     python main.py
     ```
+   
+## Screenshots
+
+![Screenshot](https://github.com/tudorberbecaru/snake-game/blob/master/.github/Screenshot.png)
 
 ## License
 
