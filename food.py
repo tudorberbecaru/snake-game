@@ -14,6 +14,8 @@ class Food(Turtle):
         self.refresh()
 
     def refresh(self):
+
+        # Generate random coordinates for the food to appear
         random_x = random.randint(-725, 725)
         random_y = random.randint(-425, 425)
         self.goto(random_x, random_y)

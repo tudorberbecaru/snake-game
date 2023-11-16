@@ -17,10 +17,12 @@ class Scoreboard(Turtle):
         self.update_scoreboard()
 
     def update_scoreboard(self):
+        # Update and display the current score and high score
         self.clear()
         self.write(f"SCORE: {self.score}  HIGH SCORE: {self.high_score}", align=ALIGNMENT, font=FONT)
 
     def reset_scoreboard(self):
+        # Reset score, update high score and store it in data.txt, and display on the scoreboard
         if self.score > self.high_score:
             with open("data.txt", mode='w') as data:
                 data.write(str(self.score))
@@ -29,5 +31,6 @@ class Scoreboard(Turtle):
         self.update_scoreboard()
 
     def increase_score(self):
+        # Increase the score and update the scoreboard
         self.score += 1
         self.update_scoreboard()
