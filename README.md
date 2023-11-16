@@ -44,7 +44,7 @@ Welcome to the Snake Game in Python! This console-based implementation brings th
 ## Requirements
 
 - Python 3.x
-- Turtle Graphics
+- Turtle graphics library (pre-installed with Python)
 
 ## Installation
 
